@@ -9,6 +9,7 @@ class SampleView(View):
 		return render(request, 'Webapp/top.html')
 top_page = SampleView.as_view()
 
+
 def search_view(request):
     search_endpoint = 'Azure Cognitive Searchのエンドポイント'
     api_key = 'Azure Cognitive SearchのAPIキー'
