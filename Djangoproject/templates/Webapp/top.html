@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/top.css' %}">
 </head>
 <body>
-    <label for="searchform_flag" class="button updown"><img src="{% static 'css/magnifying glass.png' %}"></label>
+    <label for="searchform_flag" class="button updown"><img src="{% static 'css/magnifyingglass.png' %}"></label>
     <input type="checkbox" id="searchform_flag" class="searchform_check">
     <div class="searchform_popup">
         <form method="post" action="{% url 'Webapp:search_view' %}">
@@ -18,5 +18,26 @@
             <input type="submit" value="検索">
         </form>
     </div>
+
+    <div class="big-circles">
+        <div class="big-circle"></div>
+        <div class="big-circle"></div>
+        <div class="big-circle"></div>
+        <div class="big-circle"></div>
+    </div>
+
+    <section id="home">
+        <div class="slide-wrapper">
+            <div class="smallcircles">
+                <div class="small-circle"></div>
+                <div class="small-circle"></div>
+                <div class="small-circle"></div>
+                <div class="small-circle"></div>
+                <div class="small-circle"></div>
+                <div class="small-circle"></div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
