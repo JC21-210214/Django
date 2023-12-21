@@ -11,9 +11,9 @@ top_page = SampleView.as_view()
 
 
 def search_view(request):
-    search_endpoint = 'Azure Cognitive Searchのエンドポイント'
-    api_key = 'Azure Cognitive SearchのAPIキー'
-    index_name = '検索対象のインデックス名'
+    search_endpoint = 'https://sotuken-beta.search.windows.net'
+    api_key = 'RvICL223LXinONIZB3GHMoQTP5MfmCUmoH4iav37B3AzSeA918fw'
+    index_name = 'book-search'
     search_text = '若い男と老婆が揉める'
 
     response = requests.get(
